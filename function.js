@@ -1,4 +1,4 @@
-export const sortArray = (data) => {
+export const sortCars = (data) => {
   return data.sort((a, b) => {
     if (a < b) {
       return -1;
@@ -8,4 +8,8 @@ export const sortArray = (data) => {
       return 0;
     }
   });
+};
+
+export const sortArray = (data) => {
+  return data.sort();
 };
